@@ -1,0 +1,78 @@
+{
+  "stleitura": [
+    {
+      "id": 1,
+      "descricao": "Não iniciada"
+    },
+    {
+      "id": 2,
+      "descricao": "Iniciada"
+    },
+    {
+      "id": 3,
+      "descricao": "Em progresso"
+    },
+    {
+      "id": 4,
+      "descricao": "Finalizada"
+    }
+  ],
+  "livros": [
+    {
+      "titulo": "As aventuras de Pi",
+      "autor": "Yann Martel",
+      "volume": "vol. único",
+      "qtdpaginas": "261",
+      "stleitura": "Finalizada",
+      "id": 1
+    },
+    {
+      "titulo": "Viagem ao centro da terra",
+      "autor": "Júlio Verne",
+      "volume": "vol. único",
+      "qtdpaginas": "189",
+      "stleitura": "Finalizada",
+      "id": 2
+    },
+    {
+      "titulo": "O Jovem Sherlock Holmes",
+      "autor": "Andrew Lane",
+      "volume": "vol. 2",
+      "qtdpaginas": "478",
+      "stleitura": "Não iniciada",
+      "id": 3
+    },
+    {
+      "titulo": " A Guerra dos Tronos",
+      "autor": " George R. R. Martin",
+      "volume": " vol. 1",
+      "qtdpaginas": " 592",
+      "stleitura": "Em progresso",
+      "id": 4
+    },
+    {
+      "titulo": "As Crônicas de Nárnia",
+      "autor": "C. S. Lewis",
+      "volume": "vol. único",
+      "qtdpaginas": "752",
+      "stleitura": "Iniciada",
+      "id": 5
+    },
+    {
+      "titulo": "O Morro dos Ventos Uivantes",
+      "autor": " Emily Brontë",
+      "volume": "vol. único",
+      "qtdpaginas": "416",
+      "stleitura": "Não iniciada",
+      "id": 6
+    },
+    {
+      "titulo": "O Último Olimpiano",
+      "autor": "Rick Riordan",
+      "volume": "vol. 5",
+      "qtdpaginas": "227",
+      "stleitura": "Não iniciada",
+      "id": 7
+    }
+  ]
+}

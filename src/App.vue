@@ -1,30 +1,47 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <Navbar v-bind:logo="logo_src" v-bind:alt="app_name"/>
+    <router-view/>
+    <Footer/>
+  </div>
 </template>
 
+<script>
+  import Navbar from "./components/Navbar.vue"
+  import Footer from "./components/Footer.vue"
+
+  export default {
+
+    components: {
+      Navbar,
+      Footer
+    },
+    data() {
+      return {
+        logo_src: "imagem/livros.png",
+        app_name: "Listar livros"
+      }
+    }
+
+  }
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
+  * {
+    font-family: Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .main-container {
+    margin: 50px;
+    min-height: 250px;
+  }
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #222;
+  }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
